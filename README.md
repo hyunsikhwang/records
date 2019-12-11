@@ -10,4 +10,7 @@
 - pkl 보다 범용성이 좋은 hdf5 를 사용하기로 함
 - read 성능만 보면 pkl 이 더 빠르다고 함
 - pandas 에 read_hdf 기능 있음
+- dask 를 사용하는 방법도 있음
+
+### convert csv to hdf5
 
