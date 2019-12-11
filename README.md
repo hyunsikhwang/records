@@ -1,39 +1,13 @@
-## 기록
+# 기록
 
-## Welcome to GitHub Pages
+## 2019.12.11
 
-You can use the [editor on GitHub](https://github.com/hyunsikhwang/records/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+- pandas 에서 대용량 csv 를 읽어서 처리하는 작업
+- csv 를 직접 access 할 경우, Jupyter notebook kernel 이 자동으로 restart 되는 문제가 간혹 발생
+- 작업 시작 후 10초 이상 경과하는 경우에 그와 같은 문제가 발생하는 것으로 추정됨
+- googling 결과 Jupyter notebook 을 쓰지 말라는 답변 보임
+- read_csv 로 csv 파일을 직접 처리하면 시간이 오래 걸리기 때문에 hdf5 나 pickle(pkl) 사용하면 문제 해결 가능
+- pkl 보다 범용성이 좋은 hdf5 를 사용하기로 함
+- read 성능만 보면 pkl 이 더 빠르다고 함
+- pandas 에 read_hdf 기능 있음
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hyunsikhwang/records/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
