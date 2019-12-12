@@ -14,6 +14,12 @@
 
 ### convert csv to hdf5
 
+
+## 2019.12.12
+
+### convert csv to feather
+- googling 중 feather format 의 성능이 더 좋다는 내용을 보고 feather format 으로 변환하여 사용함
+
 ----
 
 ## machine learning
