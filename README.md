@@ -12,7 +12,6 @@
 - pandas 에 read_hdf 기능 있음
 - dask 를 사용하는 방법도 있음
 
-### convert csv to hdf5
 
 
 ## 2019.12.12
