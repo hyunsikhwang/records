@@ -1,5 +1,27 @@
 # 기록
 
+----
+
+## 2019.12.22
+
+### [Lululemon](2019-12-22-lululemon.md)
+
+### [보험관련 네이버 뉴스 링크](2019-12-22-news-links-in-naver.md)
+
+----
+
+## 2019.12.12
+
+### convert csv to feather
+- googling 중 feather format 의 성능이 더 좋다는 내용을 보고 feather format 으로 변환하여 사용함([link](https://towardsdatascience.com/the-best-format-to-save-pandas-data-414dca023e0d))
+
+----
+
+### [machine learning](2019-12-12-machine learning.md)
+
+
+----
+
 ## 2019.12.11
 
 - pandas 에서 대용량 csv 를 읽어서 처리하는 작업
@@ -12,22 +34,3 @@
 - pandas 에 read_hdf 기능 있음
 - dask 를 사용하는 방법도 있음
 
-----
-
-## 2019.12.12
-
-### convert csv to feather
-- googling 중 feather format 의 성능이 더 좋다는 내용을 보고 feather format 으로 변환하여 사용함([link](https://towardsdatascience.com/the-best-format-to-save-pandas-data-414dca023e0d))
-
-----
-
-### machine learning
-
-[machine learning](2019-12-12-machine learning.md)
-
-
-----
-
-## 2019.12.22
-
-### [Lululemon](2019-12-22-lululemon.md)
