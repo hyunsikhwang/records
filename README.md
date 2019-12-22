@@ -21,6 +21,13 @@
 
 ----
 
-## machine learning
+### machine learning
 
 [machine learning](2019-12-12-machine learning.md)
+
+
+----
+
+##2019.12.22
+
+### [Lululemon](2019-12-22-lululemon.md)
