@@ -14,3 +14,9 @@
 - [Kaggle Titanic Competition](https://blog.aivillain.com/category/%EB%94%A5%EB%9F%AC%EB%8B%9D%26%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/%EC%BA%90%EA%B8%80)
 
 - [타이타닉 튜토리얼 1 - Exploratory data analysis, visualization, machine learning](https://kaggle-kr.tistory.com/17)
+
+## tips
+- preprocessing by sklearn
+	- LabelEncoder()
+- keras
+- randomforest model: decision tree
