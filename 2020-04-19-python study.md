@@ -169,18 +169,18 @@ amounts; Checkbox; toyr 에 입력된 기간까지의 CY 별 위보 및 수지�
 >     rects = ax.patches
 >     for rect, label in zip(rects, df5[str(item)]):
 >         height = rect.get_height()
->         ax.text(rect.get_x() + rect.get_width() / 2, height, "{:.1%}".format(label), ha='center', va='bottom', size=8)
-> 
-> 
-> toyr = widgets.Text(value='2005', placeholder='Type something', description='To year')  
-> items = widgets.SelectMultiple(options=range(2019, 2014, -1), value=[2019], description='Calendar year')  
-> ultyr = widgets.Text(value='15', placeholder='Type something', description='Ultimate PY')  
-> rprem = widgets.Checkbox(value=False, description='Risk premiums')  
-> cumprofit = widgets.Checkbox(value=False, description='Cumulative profits')  
-> amounts = widgets.Checkbox(Value=False, description='Amounts')  
-> txtui = VBox([toyr, ultyr])  
-> subui = VBox([rprem, cumprofit, amounts])  
-> ui = HBox([txtui, items, subui])  
-> out = widgets.interactive_output(pick_data, {'toyr':toyr, 'items':items, 'ultyr':ultyr, 'rprem':rprem, 'cumprofit':cumprofit, 'amounts':amounts})  
->   
-> display(ui, out)  
+>         ax.text(rect.get_x() + rect.get_width() / 2, height, "{:.1%}".format(label), ha='center', va='bottom', size=8) 
+>  
+>  
+> toyr = widgets.Text(value='2005', placeholder='Type something', description='To year') 
+> items = widgets.SelectMultiple(options=range(2019, 2014, -1), value=[2019], description='Calendar year') 
+> ultyr = widgets.Text(value='15', placeholder='Type something', description='Ultimate PY') 
+> rprem = widgets.Checkbox(value=False, description='Risk premiums') 
+> cumprofit = widgets.Checkbox(value=False, description='Cumulative profits') 
+> amounts = widgets.Checkbox(Value=False, description='Amounts') 
+> txtui = VBox([toyr, ultyr]) 
+> subui = VBox([rprem, cumprofit, amounts]) 
+> ui = HBox([txtui, items, subui]) 
+> out = widgets.interactive_output(pick_data, {'toyr':toyr, 'items':items, 'ultyr':ultyr, 'rprem':rprem, 'cumprofit':cumprofit, 'amounts':amounts}) 
+>  
+> display(ui, out)
