@@ -29,11 +29,17 @@ dataframe stacking 및 인덱스 이름 지정
 > def pick_data(toyr, items, ultyr, rprem, cumprofit, amounts):
 
 interactive widget 구현을 위한 function 
+
 toyr; Text; amounts 에 적용되는 maximum UY 입력 
+
 items; SelectMultiple; 손해율 비교 plot 을 위한 CY 선택 
+
 ultyr; Text; ultimate year 입력 
+
 rprem; Checkbox; 위험보험료 plot on/off 
+
 cumprofit; Checkbox; 누적수지차 plot on/off 
+
 amounts; Checkbox; toyr 에 입력된 기간까지의 CY 별 위보 및 수지차 plot on/off 
 
 
