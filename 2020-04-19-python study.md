@@ -1,4 +1,4 @@
-## A New Post
+## Data visualization for analyzing loss ratio
 
 > df = pd.read_csv('./HB_KDB_2.csv', header=None, index_col=[0], encoding='euc-kr')
 
